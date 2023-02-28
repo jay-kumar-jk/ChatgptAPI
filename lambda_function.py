@@ -3,8 +3,6 @@ import openai
 
 def lambda_handler(event, context):
     # TODO implement
-    print("API test")
-    print("Received event")
     openai.api_key = "Enter your key"
 
     # Set up the model and prompt
